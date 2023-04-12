@@ -1,0 +1,44 @@
+[
+  {
+    "movie_name": "Edge of Tomorrow",
+    "movie_description": "A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.",
+    "image_name": "https://static.metacritic.com/images/products/movies/4/43bc9925cb284abbcb31e5d13ec5ff67.jpg",
+    "user_id": 1
+  },
+  {
+    "movie_name": "Thor: Ragnarok",
+    "movie_description": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+    "image_name": "https://m.media-amazon.com/images/M/MV5BMzllMjhjNzMtZTMxNS00NjU4LWI5YTMtZTUwNTUyZjQ4ZjRkXkEyXkFqcGdeQXVyNTg5NjcwNjY@._V1_.jpg",
+    "user_id": 2
+  },
+  {
+    "movie_name": "Super Mario Bros.",
+    "movie_description": "Two Brooklyn plumbers, Mario and Luigi, must travel to another dimension to rescue a princess from the evil dictator King Koopa and stop him from taking over the world.",
+    "image_name": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/369184/4192566/api6nuaeb__93364.1625621715.jpg?c=2",
+    "user_id": 3
+  },
+  {
+    "movie_name": "Scott Pilgrim vs. the World",
+    "movie_description": "In a magically realistic version of Toronto, a young man must defeat his new girlfriend's seven evil exes one by one in order to win her heart.",
+    "image_name": "https://static.metacritic.com/images/products/movies/3/524cfbd8dd5a2c4a96d99d80d70716fc.jpg",
+    "user_id": 2
+  },
+  {
+    "movie_name":"Mad Max: Fury Road",
+    "movie_description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper and a drifter named Max.",
+    "image_name": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91eZ1AZuHtL._RI_.jpg",
+    "user_id": 1
+  },
+  {
+    "movie_name": "Attack the Block",
+    "movie_description": "A teen gang in South London defend their block from an alien invasion.",
+    "image_name": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/476897_ATTACK%20THE%20BLOCK_1400x2100_English%20%28US%29_0.jpg",
+    "user_id": 3
+  },
+  {
+    "movie_name": "TETRIS",
+    "movie_description": "While it's nowhere near as addictive or fast-paced as the game, Tetris offers a fun, fizzy account of the story behind an 8-bit classic.",
+    "image_name": "https://i.ebayimg.com/images/g/qwAAAOSwDFdkB0QV/s-l500.jpg",
+    "user_id": 3
+  }
+]

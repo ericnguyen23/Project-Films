@@ -1,0 +1,27 @@
+<div class="box">
+  <div class="columns is-mobile is-centered is-vcentered">
+    <div class="column">
+      <img id="old-image" class="movie-image"src={{movie.image_name}} alt="" />
+    </div>
+
+    <div class="column is-flex-direction-row">
+      <span
+        id="movie-title"
+        class="title"
+        contenteditable="true"
+      >{{movie.movie_name}}</span><br />
+      <span
+        id="desc"
+        class="subtitle"
+        contenteditable="true"
+      ><br>{{movie.movie_description}}<br></span><br />
+
+      
+      <input id="movie-img" type="text"class="input is-rounded mt-3" placeholder="Movie's Image URL"></input><br />
+      <button id="save-button" class="button is-success is-outlined mt-3"><i class="fa-regular fa-circle-check"></i>Save
+        Edits</button>
+    </div>
+  </div>
+</div>
+
+<script src="/js/editmovie.js"></script>

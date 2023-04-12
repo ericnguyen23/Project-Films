@@ -1,0 +1,45 @@
+@import "bulma/css/bulma.css";
+@import "animate.css/animate.css";
+
+
+i {
+  margin-right: 10px;
+}
+
+body{
+  background: rgb(184,8,168);
+  background: radial-gradient(circle, rgba(184,8,168,1) 0%, rgba(120,31,143,1) 61%, rgba(103,5,74,1) 100%);
+  padding-bottom:60px;
+}
+
+.hero.is-info .title{
+  color: #d169e2;
+}
+
+.has-background-info-light {
+    background-color:  rgba(0, 0, 0, .25) !important;
+    /* border:5px solid #d169e2; */
+}
+
+.hero.is-info a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.is-info .navbar-link:hover, .hero.is-info .navbar-link.is-active{
+  background-color: #781f8f;
+}
+
+.white-title{
+  color: white !important;
+}
+
+.like-button {
+  background-color: #781f8f;
+  color: white;
+}
+
+.like-button:hover, .like-button:focus {
+  color: white;
+  background-color: #d169e2;
+}
+
+.movie-image{
+  height: 500px;
+  width: 350px
+}

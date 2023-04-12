@@ -1,0 +1,23 @@
+<div class="container has-text-centered pb-3">
+  <p class="title white-title">Liked Films</p>
+</div>
+<div class="box">
+{{#each likes as |like|}}
+  <div class="columns is-mobile is-centered is-vcentered">
+    <div class="column">
+      <img class="movie-image" src={{like.movie.image_name}} alt="">
+    </div>
+    <div class="column is-flex-direction-row">
+     
+      <span class="title">{{like.movie.movie_name}}</span>
+      <br><span class="subtitle"><br>{{like.movie.movie_description}}<br></span><br>
+      <button class="button is-danger is-light unlike-button"><i class="fa-solid fa-circle-minus"></i>Unlike
+        <input type="hidden" name="like-id" value="{{like.id}}" />
+      </button>
+      
+    </div>
+  </div>
+{{/each}}
+</div>
+
+<script src="./js/unlike.js"></script>

@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="container has-text-centered pb-3">
+    <p class="title white-title">{{user_name}}'s Dashboard</p>
+  </div>
+
+  <form class="form new-movie">
+    <div class="field">
+      <input id="film-name" class="input" type="text" placeholder="Film Name" />
+    </div>
+    <div class="field">
+      <textarea
+        id="film-description"
+        class="textarea"
+        placeholder="Film Description"
+      ></textarea>
+    </div>
+    <div class="field">
+      <input
+        id="film-image"
+        class="input"
+        type="text"
+        placeholder="Film image url"
+      />
+    </div>
+    <div class="field mt-4">
+      <p class="control">
+        <button class="button is-success">
+          Submit
+        </button>
+      </p>
+    </div>
+  </form>
+
+  <h1 class="is-size-4 mt-5 white-title">{{user_name}}'s Movies:</h1>
+
+  {{#each movies as |movie|}}
+    <div class="box">
+
+      <div class="columns is-mobile is-centered is-vcentered">
+        <div class="column">
+          <img class="movie-image" src={{movie.image_name}} alt="" />
+        </div>
+
+        <div class="column is-flex-direction-row">
+          <span class="title">{{movie.movie_name}}</span>
+          <br><span class="subtitle"><br>{{movie.movie_description}}<br></span><br>
+          <button class="button is-link is-light mt-4"><a
+              style="text-decoration: none;"
+              href="/movie/{{movie.id}}"
+            ><i class="fa-solid fa-pencil"></i>Edit</a></button><br />
+
+          {{!delete button}}
+          <button
+            class="deleteBtn button is-danger is-light mt-4"
+            data-id="
+            {{movie.id}}"
+          ><i class="fa-solid fa-trash-can"></i>Delete</button>
+
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
+</div>
+
+<script src="./js/createmovie.js"></script>
+<script src="./js/deletemovie.js"></script>

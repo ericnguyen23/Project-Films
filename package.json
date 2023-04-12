@@ -1,0 +1,38 @@
+{
+  "name": "movie-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeDish/movie-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeDish/movie-database/issues"
+  },
+  "homepage": "https://github.com/JakeDish/movie-database#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "animate.css": "^4.1.1",
+    "bcrypt": "^5.1.0",
+    "bulma": "^0.9.4",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "image-js": "^0.35.3",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

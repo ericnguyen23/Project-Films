@@ -1,0 +1,26 @@
+
+
+{{#each movies as |movie|}}
+<div class="box">
+
+  <div class="columns is-mobile is-centered is-vcentered">
+    <div class="column">
+      <img class="movie-image image" src={{movie.image_name}} alt="">
+    </div>
+    
+    <div class="column is-flex-direction-row">
+      <span class="title">{{movie.movie_name}}</span><br>
+      <span class="subtitle"><br>{{movie.movie_description}}<br></span><br>
+      {{#if ../logged_in }} 
+        <button class="button like-button"><i class="fa-regular fa-thumbs-up"></i>Like
+          <input type="hidden" name="like-id" value="{{movie.id}}" />
+        </button>
+        
+       {{/if}}
+      <p>Liked: {{movie.totalLiked}} times</p>
+    </div>
+  </div>
+</div>
+{{/each}}
+
+<script src="./js/like.js"></script>
